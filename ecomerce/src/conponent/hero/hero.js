@@ -1,9 +1,17 @@
 import React from 'react'
-
-function hero() {
+import './hero.scss'
+function Hero() {
   return (
-    <div>hero</div>
+    <div className='Hero' >
+        <div className="Hero-content">
+            <h2 className="heading">Exclusive Print And Art Work</h2>
+            <p className="subheading">
+            Exclusive Art pieces For The Exclusive You
+            </p>
+            <button className="cta btn-primary">Explore More</button>
+        </div>
+    </div>
   )
 }
 
-export default hero
+export default Hero
