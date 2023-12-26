@@ -1,9 +1,15 @@
 import React from 'react'
-
-function catagories() {
+import "./catagories.scss"
+function Catagories() {
   return (
-    <div>catagories</div>
+    <div className="catagories">
+      <div className="content center">
+        <h3 className="heading" >Comics</h3>
+
+      </div>
+  
+    </div>
   )
 }
 
-export default catagories
+export default Catagories

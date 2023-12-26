@@ -1,0 +1,39 @@
+.product{
+    width: 23;
+    cursor: pointer;
+   
+    .product-container{
+        border: 1px solid rgba($color: #000000, $alpha: 0.1);
+        padding: 20px;
+       ;
+        .product-img{
+            height: 300px;
+            width: 100%;
+            position: relative;
+            
+            .img-container{
+                position: absolute;
+              
+                width: 100%;
+                height: 100%;
+                .img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                 
+                  
+                }
+            }
+        }
+        .product-info{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+          .prize{
+            color: black;
+            
+          }
+        }
+    }
+}

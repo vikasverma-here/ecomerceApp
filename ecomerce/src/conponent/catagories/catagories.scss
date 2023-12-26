@@ -1,0 +1,24 @@
+.catagories{
+    width: 32%;
+    aspect-ratio: 16/9;
+    background-image: url(../../assets/catagories.jpg);
+    // background-repeat: no-repeat;
+    background-size: cover;
+    // background-position: ;
+    background-position-y: 15%;
+    cursor: pointer;
+    .content{
+        height: 100%;
+        background-color: rgba($color: #000000, $alpha: 0.4);
+        .heading{
+            color: white;
+            position: relative;
+            left: 40%;
+            font-size: 1.5rem;
+        }
+        
+        &:hover{
+            background-color: rgba($color: #000000, $alpha: 0.6);
+        }
+    }
+}
