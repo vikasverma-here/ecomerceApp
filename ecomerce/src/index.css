@@ -59,3 +59,15 @@ a{
   align-items: center;
   justify-content: center;
 }
+.btn-primary{
+  padding: 12px;
+  background-color: var(--accent-color);
+  color: white;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 700;
+  user-select: none;
+
+}
