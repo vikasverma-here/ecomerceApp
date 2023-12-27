@@ -7,7 +7,7 @@ function Product() {
       <div className="product-container">
         <div className="product-img">
           <div className="img-contianer">
-            <img src={dummy} alt="" />
+            <img id='img' src={dummy} alt="" />
           </div>
         </div>
         <div className="product-info">
