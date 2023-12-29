@@ -1,5 +1,5 @@
 .product{
-    width: 23;
+    min-width: 280px;
     cursor: pointer;
    
     .product-container{
@@ -29,6 +29,7 @@
         .product-info{
             text-align: center;
             display: flex;
+            padding-inline: 8px;
             flex-direction: column;
             gap: 5px;
           .prize{

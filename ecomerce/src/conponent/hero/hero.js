@@ -1,6 +1,8 @@
 import React from 'react'
 import './hero.scss'
+import {useNavigate} from "react-router-dom"
 function Hero() {
+  const navigate = useNavigate()
   return (
     <div className='Hero' >
         <div className="Hero-content ">
@@ -8,7 +10,7 @@ function Hero() {
             <p className="subheading ">
             Exclusive Art pieces For The Exclusive You 
             </p>
-            <button className="cta btn-primary">Explore More</button>
+            <button onClick={()=>navigate('/catagory')} className="cta btn-primary">Explore More</button>
 
             
         </div>
